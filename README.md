@@ -6,7 +6,7 @@ Dans le cadre de cette mission, ma responsabilité principale a été d'établir
 
 ### Commandes Docker
 
-Pour exécuter le `docker-compose` :
+Pour exécuter le `docker-compose` :  
 `docker-compose up -d` 
 
 Pour arrêter les services :  
