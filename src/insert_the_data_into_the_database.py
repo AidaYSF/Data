@@ -89,4 +89,9 @@ if __name__ == "__main__":
     db_url = f'postgresql://{args.db_user}:{args.db_password}@{args.db_host}:{args.db_port}/{args.database_name}'
 
     # Calling the function to insert data into the database
-    insert_the_data_into_the_database(db_url, args.data_folder_path)
+    try:
+        insert_the_data_into_the_database(db_url, args.data_folder_path)
+    except Exception as e:
+        print(e)
+    else: 
+        print('file insertion successfully completed.')
