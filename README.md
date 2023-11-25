@@ -13,7 +13,7 @@ Pour arrêter les services :
 `docker-compose down`  
 
 En parallèle, j'ai configuré pgAdmin4 pour créer une interface conviviale avec notre base de données PostgreSQL, facilitant ainsi la visualisation et la gestion des opérations.  
-![Alt text](images\pgAdmin4.png)  
+![Alt text](https://github.com/AidaYSF/Test-Data-Engineering/blob/main/images/pgAdmin4.png)  
 
 ### Intégration des données  
 En ce qui concerne l'intégration des données, deux fichiers CSV m'ont été remis. Avant leur incorporation dans la base de données PostgreSQL, j'ai identifié des erreurs telles qu'une colonne superflue, ainsi que des incohérences au niveau des noms de colonnes (uniquement dans le fichier data_consumers.csv). Cela a nécessité la suppression de la colonne indésirable et des permutations au niveau des colonnes, utilisant pour cela Pandas.  
