@@ -18,12 +18,12 @@ En parallèle, j'ai configuré **pgAdmin4** pour créer une interface conviviale
 ![Alt text](https://github.com/AidaYSF/Test-Data-Engineering/blob/main/images/pgAdmin4.png)  
 
 ### Intégration des données  
-En ce qui concerne l'intégration des données, deux fichiers CSV m'ont été remis. Avant leur incorporation dans la base de données **PostgreSQL**, j'ai identifié des erreurs telles qu'une colonne superflue, ainsi que des incohérences au niveau des noms de colonnes *(uniquement dans le fichier data_consumers.csv)*. Cela a nécessité la suppression de la colonne indésirable et des permutations au niveau des colonnes, utilisant pour cela Pandas.  
+En ce qui concerne l'intégration des données, deux fichiers CSV m'ont été remis. Avant leur incorporation dans la base de données **PostgreSQL**, j'ai identifié des erreurs telles qu'une colonne superflue, ainsi que des incohérences au niveau des noms de colonnes *(uniquement dans le fichier data_consumers.csv)*. Cela a nécessité la suppression de la colonne indésirable et des permutations au niveau des colonnes, utilisant pour cela **Pandas**.  
 
 ### Insertion des données  
 Pour établir les connexions avec notre base de données, j'ai fait appel à **SQL Alchemy**, tandis que l'insertion des données s'est déroulée avec les méthodes de **Pandas**, exploitant le module **psycopg2** dédié à la communication avec les bases de données **PostgreSQL**.  
 
-Pour insérer les données, utilisez le script Python suivant :  
+Pour insérer les données, utilisez le script **Python** suivant :  
 `python src/insert_the_data_into_the_database.py --db_host --db_port --db_user --db_password --database_name --data_folder_path`  
 avec :  
 `--db_host : L'adresse IP ou le nom d'hôte du serveur PostgreSQL.`  
@@ -39,8 +39,6 @@ Respectant scrupuleusement les directives du cahier des charges, j'ai élaboré 
 ### Bonnus  
 Pour accéder et analyser les données stockées dans notre base de données **PostgreSQL**, j'ai établi une connexion en utilisant **SQL Alchemy**. La récupération des données s'effectue grâce à **Pandas**, en utilisant des requêtes **SQL** et en intégrant de manière transparente le module **psycopg2**, spécifiquement conçu pour les bases de données **PostgreSQL**. Pour la visualisation statistique, j'ai utilisé **Pandas**, qui repose sur le module **pyplot** de **Matplotlib**. Les résultats sont présentés dans le graphique statistique suivant :  
 
-![Alt text](https://github.com/AidaYSF/Test-Data-Engineering/blob/main/images/bonnus.png)   
-
-Ce processus garantit une manipulation efficace des données, une intégration transparente avec **PostgreSQL**, et des informations statistiques claires présentées à travers une représentation visuelle.  
+![Alt text](https://github.com/AidaYSF/Test-Data-Engineering/blob/main/images/bonnus.png)  
   
 
