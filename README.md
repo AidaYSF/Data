@@ -2,7 +2,7 @@
 
 ## Rapport de Mission - Intégration de données avec PostgreSQL  
 
-Dans le cadre de cette mission, ma responsabilité principale a été d'établir une base de données PostgreSQL et d'importer des fichiers CSV qui m'ont été confiés. La mise en place du fichier `docker-compose` pour l'installation de **PostgreSQL** faisait également partie de mes missions. Bien que la sélection de **PostgreSQL** ne relève pas de ma compétence directe, elle a été motivée par sa fiabilité et ses performances, justifiant ainsi ce choix.   
+Dans le cadre de cette mission, ma responsabilité principale a été d'établir une base de données **PostgreSQL** et d'importer des fichiers CSV qui m'ont été confiés. La mise en place du fichier `docker-compose` pour l'installation de **PostgreSQL** faisait également partie de mes missions. Bien que la sélection de **PostgreSQL** ne relève pas de ma compétence directe, elle a été motivée par sa fiabilité et ses performances, justifiant ainsi ce choix.   
 
 Pour utiliser ce travail, il est nécessaire de cloner ce répertoire en exécutant la commande suivante : `git clone https://github.com/AidaYSF/Test-Data-Engineering.git`. Ce projet a été testé dans un environnement virtuel **Python 3.8** sous **Conda**. Les packages requis sont décrits dans le fichier `requirements.txt`, que nous pouvons installer en utilisant la commande `pip install -r requirements.txt`.  
 
