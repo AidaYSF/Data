@@ -94,4 +94,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
     else: 
-        print('file insertion successfully completed.')
+        print('files insertion successfully completed.')
