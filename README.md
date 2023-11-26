@@ -37,8 +37,19 @@ avec :
 Respectant scrupuleusement les directives du cahier des charges, j'ai élaboré des requêtes **SQL** pour extraire les données nécessaires, les testant avec succès dans l'onglet dédié aux requêtes **SQL** de **pgAdmin4**.  
 
 ### Bonnus  
-Pour accéder et analyser les données stockées dans notre base de données **PostgreSQL**, j'ai établi une connexion en utilisant **SQL Alchemy**. La récupération des données s'effectue grâce à **Pandas**, en utilisant des requêtes **SQL** et en intégrant de manière transparente le module **psycopg2**, spécifiquement conçu pour les bases de données **PostgreSQL**. Pour la visualisation statistique, j'ai utilisé **Pandas**, qui repose sur le module **pyplot** de **Matplotlib**. Les résultats sont présentés dans le graphique statistique suivant :  
+Pour accéder et analyser les données stockées dans notre base de données **PostgreSQL**, j'ai établi une connexion en utilisant **SQL Alchemy**. La récupération des données s'effectue grâce à **Pandas**, en utilisant des requêtes **SQL** et en intégrant de manière transparente le module **psycopg2**, spécifiquement conçu pour les bases de données **PostgreSQL**. Pour la visualisation statistique, j'ai utilisé **Pandas**, qui repose sur le module **pyplot** de **Matplotlib**.   
+ 
+Pour lire et visualiser le résultat graphique, utilisez le script **Python** suivant :  
+`python src/bonnus.py --db_host --db_port --db_user --db_password --database_name`  
+avec :  
+`--db_host : L'adresse IP ou le nom d'hôte du serveur PostgreSQL.`  
+`--db_port : Le port sur lequel PostgreSQL écoute.`  
+`--db_user : Le nom d'utilisateur pour se connecter à la base de données.`  
+`--db_password : Le mot de passe associé à l'utilisateur.`  
+`--database_name : Le nom de la base de données PostgreSQL.`  
 
 ![Alt text](https://github.com/AidaYSF/Test-Data-Engineering/blob/main/images/bonnus.png)  
+
+
   
 
