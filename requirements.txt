@@ -1,0 +1,9 @@
+# This file may be used to create an environment using:
+# pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+argparse  
+psycopg2
+sqlalchemy
+
